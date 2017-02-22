@@ -1,0 +1,144 @@
+﻿生成启动时间为 2016/10/26 20:54:29。
+     1>项目“C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\MDomQuaChkSys.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2010install\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Administrator\Desktop\MDomQuaChkSys\include /Zi /nologo /W3 /WX- /Od /Oi /GL /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yc"StdAfx.h" /Fp"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.pch" /Fo"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\\" /Fd"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         Automatically Linking With MPDFLib.dll
+         F:\vs2010install\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Administrator\Desktop\MDomQuaChkSys\include /Zi /nologo /W3 /WX- /Od /Oi /GL /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"StdAfx.h" /Fp"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.pch" /Fo"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\\" /Fd"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\vc100.pdb" /Gd /TP /errorReport:prompt ChartAxis.cpp ChartAxisLabel.cpp ChartBarSerie.cpp ChartCtrl.cpp ChartGradient.cpp ChartGrid.cpp ChartLegend.cpp ChartLineSerie.cpp ChartObject.cpp ChartPointsSerie.cpp ChartScrollBar.cpp ChartSerie.cpp ChartSurfaceSerie.cpp ChartTitle.cpp GradientProgressCtrl.cpp MainFrm.cpp MDomQuaChkSys.cpp MDomQuaChkSysDoc.cpp MDomQuaChkSysView.cpp MNewPrjDlg.cpp MultiThreadFuns.cpp MyDockablePane.cpp MyFunctions.cpp MyImgViewWnd.cpp MyListCtrl.cpp MyMatchPointChartDlg.cpp MyMatchPtChartWnd.cpp MyMFCPropertyGridCtrl.cpp MyMFCRibbonBar.cpp MyMFCTabCtrl.cpp MySourceDataWnd.cpp MyTreeCtrl.cpp MyViewerRender.cpp OutputWnd.cpp PropertiesWnd.cpp SplashWnd.cpp
+         ChartAxis.cpp
+         ChartAxisLabel.cpp
+         ChartBarSerie.cpp
+         ChartCtrl.cpp
+         ChartGradient.cpp
+         ChartGrid.cpp
+         ChartLegend.cpp
+     1>ChartLegend.cpp(282): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         ChartLineSerie.cpp
+         ChartObject.cpp
+         ChartPointsSerie.cpp
+         ChartScrollBar.cpp
+         ChartSerie.cpp
+     1>ChartSerie.cpp(506): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         ChartSurfaceSerie.cpp
+         ChartTitle.cpp
+         GradientProgressCtrl.cpp
+     1>GradientProgressCtrl.cpp(403): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>GradientProgressCtrl.cpp(415): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         MainFrm.cpp
+     1>MainFrm.cpp(266): warning C4101: “bNameValid”: 未引用的局部变量
+         MDomQuaChkSys.cpp
+         MDomQuaChkSysDoc.cpp
+         MDomQuaChkSysView.cpp
+     1>MDomQuaChkSysView.cpp(316): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(362): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(364): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(365): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(396): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(442): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(444): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(445): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(464): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(478): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(498): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(527): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(535): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MDomQuaChkSysView.cpp(555): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(692): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(701): warning C4800: “float *”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MDomQuaChkSysView.cpp(919): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>MDomQuaChkSysView.cpp(942): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>MDomQuaChkSysView.cpp(965): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>MDomQuaChkSysView.cpp(988): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         MNewPrjDlg.cpp
+     1>MNewPrjDlg.cpp(81): warning C4101: “nListHeight”: 未引用的局部变量
+     1>MNewPrjDlg.cpp(81): warning C4101: “nListWidth”: 未引用的局部变量
+     1>MNewPrjDlg.cpp(188): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MNewPrjDlg.cpp(231): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         Compiling...
+         MultiThreadFuns.cpp
+         MyDockablePane.cpp
+         MyFunctions.cpp
+         MyImgViewWnd.cpp
+     1>MyImgViewWnd.cpp(175): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MyImgViewWnd.cpp(188): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MyImgViewWnd.cpp(198): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MyImgViewWnd.cpp(199): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         MyListCtrl.cpp
+         MyMatchPointChartDlg.cpp
+     1>MyMatchPointChartDlg.cpp(121): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>MyMatchPointChartDlg.cpp(134): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         MyMatchPtChartWnd.cpp
+     1>MyMatchPtChartWnd.cpp(41): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         MyMFCPropertyGridCtrl.cpp
+         MyMFCRibbonBar.cpp
+         MyMFCTabCtrl.cpp
+         MySourceDataWnd.cpp
+         MyTreeCtrl.cpp
+         MyViewerRender.cpp
+     1>MyViewerRender.cpp(4): warning C4273: “__glewGenBuffersARB”: dll 链接不一致
+                 C:\Users\Administrator\Desktop\MDomQuaChkSys\include\opengl/glew.h(17531) : 参见“__glewGenBuffersARB”的前一个定义
+     1>MyViewerRender.cpp(5): warning C4273: “__glewBindBufferARB”: dll 链接不一致
+                 C:\Users\Administrator\Desktop\MDomQuaChkSys\include\opengl/glew.h(17527) : 参见“__glewBindBufferARB”的前一个定义
+     1>MyViewerRender.cpp(6): warning C4273: “__glewBufferDataARB”: dll 链接不一致
+                 C:\Users\Administrator\Desktop\MDomQuaChkSys\include\opengl/glew.h(17528) : 参见“__glewBufferDataARB”的前一个定义
+     1>MyViewerRender.cpp(7): warning C4273: “__glewDeleteBuffersARB”: dll 链接不一致
+                 C:\Users\Administrator\Desktop\MDomQuaChkSys\include\opengl/glew.h(17530) : 参见“__glewDeleteBuffersARB”的前一个定义
+         OutputWnd.cpp
+     1>OutputWnd.cpp(97): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>OutputWnd.cpp(106): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         PropertiesWnd.cpp
+         SplashWnd.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IC:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ /nologo /fo"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.res" MDomQuaChkSys.rc 
+       Link:
+         F:\vs2010install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Administrator\Desktop\MDomQuaChkSys\lib\Release\x64\ /MANIFEST /ManifestFile:"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.lib" /MACHINE:X64 C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.res
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartAxis.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartAxisLabel.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartBarSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartGradient.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartGrid.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartLegend.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartLineSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartObject.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartPointsSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartScrollBar.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartSurfaceSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\ChartTitle.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\GradientProgressCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MainFrm.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSysDoc.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSysView.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MNewPrjDlg.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MultiThreadFuns.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyDockablePane.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyFunctions.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyImgViewWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyListCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyMatchPointChartDlg.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyMatchPtChartWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyMFCPropertyGridCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyMFCRibbonBar.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyMFCTabCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MySourceDataWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyTreeCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MyViewerRender.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\OutputWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\PropertiesWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\SplashWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\stdafx.obj
+            正在创建库 C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.lib 和对象 C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.exp
+         正在生成代码
+     1>c:\users\administrator\desktop\mdomquachksys\mdomquachksys\mymatchpointchartdlg.cpp(56): warning C4700: 使用了未初始化的局部变量“dMaxX”
+     1>c:\users\administrator\desktop\mdomquachksys\mdomquachksys\mymatchpointchartdlg.cpp(58): warning C4700: 使用了未初始化的局部变量“dMinX”
+         已完成代码的生成
+         MDomQuaChkSys.vcxproj -> C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Release\x64\MDomQuaChkSys.exe;#1" /manifest C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Release\x64\MDomQuaChkSys.exe.intermediate.manifest F:\vs2010install\VC\Include\Manifest\dpiaware.manifest
+     1>已完成生成项目“C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\MDomQuaChkSys.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:36.75

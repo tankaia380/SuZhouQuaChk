@@ -1,0 +1,130 @@
+﻿生成启动时间为 2016/10/25 14:47:54。
+     1>项目“C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\MDomQuaChkSys.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2013install\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Administrator\Desktop\MDomQuaChkSys\include /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MDomQuaChkSys.pch" /Fo"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\\" /Fd"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\vc120.pdb" /Gd /TP /errorReport:prompt MDomQuaChkSysDoc.cpp MNewPrjDlg.cpp
+         MNewPrjDlg.cpp
+     1>MNewPrjDlg.cpp(81): warning C4101: “nListHeight”: 未引用的局部变量
+     1>MNewPrjDlg.cpp(81): warning C4101: “nListWidth”: 未引用的局部变量
+     1>MNewPrjDlg.cpp(188): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MNewPrjDlg.cpp(231): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>MNewPrjDlg.cpp(250): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         MDomQuaChkSysDoc.cpp
+     1>MDomQuaChkSysDoc.cpp(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(186): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(188): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(195): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(213): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(215): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(216): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(235): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(246): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(247): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(248): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(250): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(258): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(260): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(282): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(283): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(284): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(293): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(294): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(295): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(296): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(315): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>MDomQuaChkSysDoc.cpp(333): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2013install\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IC:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ /nologo /fo"C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MDomQuaChkSys.res" MDomQuaChkSys.rc 
+       Link:
+         F:\vs2013install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Debug\x64\MDomQuaChkSys.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Administrator\Desktop\MDomQuaChkSys\lib\Debug\x64\ /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:F:\vs2013install\VC\Include\Manifest\dpiaware.manifest /PDB:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Debug\x64\MDomQuaChkSys.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\MDomQuaChkSys\Bin\Debug\x64\MDomQuaChkSys.lib" /MACHINE:X64 C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MDomQuaChkSys.res
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartAxis.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartAxisLabel.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartBarSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartGradient.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartGrid.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartLegend.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartLineSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartObject.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartPointsSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartScrollBar.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartSurfaceSerie.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\ChartTitle.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\GradientProgressCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MainFrm.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MDomQuaChkSys.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MDomQuaChkSysDoc.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MDomQuaChkSysView.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MNewPrjDlg.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MultiThreadFuns.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyDockablePane.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyFunctions.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyImgViewWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyListCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyMatchPointChartDlg.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyMatchPtChartWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyMFCPropertyGridCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyMFCRibbonBar.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyMFCTabCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MySourceDataWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyTreeCtrl.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\MyViewerRender.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\OutputWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\PropertiesWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\SplashWnd.obj
+         C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\\Debug\x64\stdafx.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“MPDFLib.lib”
+     1>已完成生成项目“C:\Users\Administrator\Desktop\MDomQuaChkSys\MDomQuaChkSys\MDomQuaChkSys.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:32.82

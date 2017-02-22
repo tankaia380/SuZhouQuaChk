@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>E:\2_program\MDomQuaCheck\data\prj\ImageMatch\Tsk\tie_6_7_GF1_PMS2_E122.1_N41.8_20140308_L1A0000179084-MSS2_DOM_GF1_PMS2_E122.2_N42.1_20140308_L1A0000179083-MSS2_DOM.tsk</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>E:\2_program\MDomQuaCheck\data\prj\ImageMatch\Tsk\tie_6_7_GF1_PMS2_E122.1_N41.8_20140308_L1A0000179084-MSS2_DOM_GF1_PMS2_E122.2_N42.1_20140308_L1A0000179083-MSS2_DOM.tsk</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>E:\2_program\MDomQuaCheck\data\prj\ImageMatch\Tsk\tie_6_7_GF1_PMS2_E122.1_N41.8_20140308_L1A0000179084-MSS2_DOM_GF1_PMS2_E122.2_N42.1_20140308_L1A0000179083-MSS2_DOM.tsk</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>
+    </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

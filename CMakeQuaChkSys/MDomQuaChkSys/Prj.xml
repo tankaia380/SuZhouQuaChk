@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ImageList>
+	<Image>
+		<ID>0</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS1_E121.6_N41.4_20140308_L1A0000179020-MSS1_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.399792 41.554941</LeftTop>
+			<LeftBottom>121.300792 41.239221</LeftBottom>
+			<RightBottom>121.718896 41.163765</RightBottom>
+			<RightTop>121.813504 41.480493</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>1</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS1_E121.6_N41.6_20140308_L1A0000179019-MSS1_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.487179 41.831752</LeftTop>
+			<LeftBottom>121.387531 41.516032</LeftBottom>
+			<RightBottom>121.807363 41.440432</RightBottom>
+			<RightTop>121.902691 41.757088</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>2</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS1_E121.7_N41.9_20140308_L1A0000179018-MSS1_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.575327 42.108563</LeftTop>
+			<LeftBottom>121.474887 41.792987</LeftBottom>
+			<RightBottom>121.896447 41.717027</RightBottom>
+			<RightTop>121.992999 42.033611</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>3</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS1_E121.8_N42.2_20140308_L1A0000179017-MSS1_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.663804 42.385301</LeftTop>
+			<LeftBottom>121.562860 42.069725</LeftBottom>
+			<RightBottom>121.986076 41.993621</RightBottom>
+			<RightTop>122.083636 42.310133</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>4</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS2_E122.0_N41.3_20140308_L1A0000179086-MSS2_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.807179 41.481104</LeftTop>
+			<LeftBottom>121.706811 41.167400</LeftBottom>
+			<RightBottom>122.122323 41.090576</RightBottom>
+			<RightTop>122.218587 41.405360</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>5</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS2_E122.1_N41.6_20140308_L1A0000179085-MSS2_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.896232 41.757627</LeftTop>
+			<LeftBottom>121.795216 41.443995</LeftBottom>
+			<RightBottom>122.212456 41.367099</RightBottom>
+			<RightTop>122.309368 41.681739</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>6</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS2_E122.1_N41.8_20140308_L1A0000179084-MSS2_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>121.985975 42.034293</LeftTop>
+			<LeftBottom>121.884239 41.720589</LeftBottom>
+			<RightBottom>122.303279 41.643549</RightBottom>
+			<RightTop>122.401127 41.958117</RightTop>
+		</TFWInfo>
+	</Image>
+	<Image>
+		<ID>7</ID>
+		<Path>E:\2_program\MDomQuaCheck\data\mss\GF1_PMS2_E122.2_N42.1_20140308_L1A0000179083-MSS2_DOM.tif</Path>
+		<WorkType>DOM</WorkType>
+		<TFWInfo>
+			<LeftTop>122.076221 42.310775</LeftTop>
+			<LeftBottom>121.973837 41.997071</LeftBottom>
+			<RightBottom>122.394677 41.919887</RightBottom>
+			<RightTop>122.493533 42.234383</RightTop>
+		</TFWInfo>
+	</Image>
+</ImageList>

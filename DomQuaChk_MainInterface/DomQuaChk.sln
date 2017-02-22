@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomQuaChk", "DomQuaChk\DomQuaChk.csproj", "{A55180B1-8DA6-4D11-A062-2B915887EB1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		MinSizeRel|Any CPU = MinSizeRel|Any CPU
+		MinSizeRel|ARM = MinSizeRel|ARM
+		MinSizeRel|Mixed Platforms = MinSizeRel|Mixed Platforms
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		RelWithDebInfo|Any CPU = RelWithDebInfo|Any CPU
+		RelWithDebInfo|ARM = RelWithDebInfo|ARM
+		RelWithDebInfo|Mixed Platforms = RelWithDebInfo|Mixed Platforms
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|x64.ActiveCfg = Debug|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Debug|x64.Build.0 = Debug|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|Any CPU.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|Any CPU.Build.0 = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|ARM.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|Mixed Platforms.Build.0 = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|Win32.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.MinSizeRel|x64.Build.0 = Release|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|x64.ActiveCfg = Release|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.Release|x64.Build.0 = Release|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|Any CPU.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|Any CPU.Build.0 = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|ARM.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|Mixed Platforms.Build.0 = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|Win32.ActiveCfg = Release|Any CPU
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{A55180B1-8DA6-4D11-A062-2B915887EB1D}.RelWithDebInfo|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

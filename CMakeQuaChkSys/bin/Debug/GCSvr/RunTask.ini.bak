@@ -1,0 +1,18 @@
+[PrjInfo]
+ID=1
+State= 1
+[FlowInfo]
+AutoContinue=0
+[PreProcess]
+Exe= 			PREPROCESS\PreProcess.exe
+[ARCH]
+Exe= 		 	ARCH\ARCH.exe
+[ImageMatch]
+GrpSum=1
+Grp0_TskFile=	ImageMatch_gtsk.gtsk
+Grp0_TskExe=	
+Grp0_KnlExe=   
+Grp1_TskFile=	ImageMatch_gtsk.gtsk
+Grp1_TskExe=	
+Grp1_KnlExe=     
+ChkExe= 	    

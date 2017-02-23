@@ -5,19 +5,20 @@
  *					function	:	from buffer data to superpixels laber 
 ***********************************************************************************/
 
-#if !defined(_SLIC_H_INCLUDED_)
+#ifndef _SLIC_H_INCLUDED_
 #define _SLIC_H_INCLUDED_
 
-#ifdefine DTKSLICCLASSINFOR
+#ifdef  TKSLICCLASSINFOR
 #define TKSLICCLASSDLL _declspec(dllexport)
 #else
 #define TKSLICCLASSDLL _declspec(dllimport)
+#endif
 
 #include <vector>
 #include <string>
 #include <algorithm>
 using namespace std;
-typedef unsigned short UINT;
+typedef unsigned short USINT;
 typedef unsigned char uchar;
 
 class TKSLICCLASSDLL SLIC  
@@ -37,7 +38,7 @@ public:
 		uchar*	bufferGray,
 		int		n_data_width,
 		int		n_data_height,
-		UINT	numSuperpixels);
+		USINT	numSuperpixels);
 
 	//===========================================================================
 	///	Get label on each pixel which shows the number of superpixel it belongs to
@@ -157,7 +158,7 @@ private:
 	// sRGB to CIELAB conversion for 2-D images
 	//============================================================================
 	void DoRGBtoLABConversion(
-		const UINT*&		ubuff,
+		const USINT*&		ubuff,
 		float*&					lvec,
 		float*&					avec,
 		float*&					bvec);
@@ -172,7 +173,7 @@ private:
 	// sRGB to CIELAB conversion for 3-D volumes
 	//============================================================================
 	void DoRGBtoLABConversion(
-		const UINT**&		ubuff,
+		const USINT**&		ubuff,
 		float**&					lvec,
 		float**&					avec,
 		float**&					bvec);

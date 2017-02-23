@@ -1,31 +1,4 @@
-// SLIC.cpp: implementation of the SLIC class.
-//===========================================================================
-// This code implements the zero parameter superpixel segmentation technique
-// described in:
-//
-//
-//
-// "SLIC Superpixels Compared to State-of-the-art Superpixel Methods"
-//
-// Radhakrishna Achanta, Appu Shaji, Kevin Smith, Aurelien Lucchi, Pascal Fua,
-// and Sabine Susstrunk,
-//
-// IEEE TPAMI, Volume 34, Issue 11, Pages 2274-2282, November 2012.
-//
-//
-//===========================================================================
-// Copyright (c) 2013 Radhakrishna Achanta.
-//
-// For commercial use please contact the author:
-//
-// Email: firstname.lastname@epfl.ch
-//===========================================================================
-//
-// Modified by nipan
-// Email: nipan1988@gmail.com
-// 
-
-#include "stdafx.h"
+//#include "stdafx.h"
 #include <cfloat>
 #include <cmath>
 #include <iostream>
@@ -249,7 +222,7 @@ void SLIC::RGB162LAB(const int& sR, const int& sG, const int& sB, float& lval, f
 ///	For whole image: overlaoded floating point version
 //===========================================================================
 void SLIC::DoRGBtoLABConversion(
-	const UINT*&		ubuff,
+	const USINT*&		ubuff,
 	float*&					lvec,
 	float*&					avec,
 	float*&					bvec)
@@ -296,7 +269,7 @@ void SLIC::DoRGB16toLABConversion(
 /// For whole volume
 //===========================================================================
 void SLIC::DoRGBtoLABConversion(
-	const UINT**&		ubuff,
+	const USINT**&		ubuff,
 	float**&					lvec,
 	float**&					avec,
 	float**&					bvec)
@@ -835,7 +808,7 @@ void SLIC::PerformSLICO_ForGivenK(
 	if(nlabels) delete [] nlabels;
 }
 
-void SLIC::GenerateSuperpixels(uchar* bufferGray, int n_data_width, int	n_data_height, UINT numSuperpixels)
+void SLIC::GenerateSuperpixels(uchar* bufferGray, int n_data_width, int	n_data_height, USINT numSuperpixels)
 {
 	int sz = n_data_width * n_data_height;
 	label = new uchar[sz];

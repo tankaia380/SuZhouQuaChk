@@ -8,6 +8,10 @@
 #if !defined(_SLIC_H_INCLUDED_)
 #define _SLIC_H_INCLUDED_
 
+#ifdefine DTKSLICCLASSINFOR
+#define TKSLICCLASSDLL _declspec(dllexport)
+#else
+#define TKSLICCLASSDLL _declspec(dllimport)
 
 #include <vector>
 #include <string>
@@ -16,7 +20,7 @@ using namespace std;
 typedef unsigned short UINT;
 typedef unsigned char uchar;
 
-class SLIC  
+class TKSLICCLASSDLL SLIC  
 {
 public:
 	SLIC();

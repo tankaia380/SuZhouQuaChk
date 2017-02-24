@@ -237,12 +237,11 @@ bool CMImage::SaveImg(const char* strSavePath, int nCols, int nRows, int nBands,
 		GDALDriver *poDriver = GetGDALDriverManager()->GetDriverByName(pszFormat);
 		if (poDriver == NULL) return false;
 		GDALDataset *WriteDataSet = poDriver->Create(strSavePath, nCols, nRows, nBands, GDT_Byte, NULL);
-		int pBandMap[3] = { 1,2,3 };
 		if (WriteDataSet->RasterIO(GF_Write, 0, 0, nCols, nRows, pMem, nCols, nRows, GDT_Byte, nBands, NULL, nBands * 1, nCols*nBands * 1, 1) == CE_Failure)
 		{
 			return false;
 		}
-		GDALClose(poDriver);
+		//GDALClose(poDriver);
 		GDALClose(WriteDataSet); WriteDataSet = NULL;
 		return true;
 	}
@@ -273,6 +272,22 @@ bool CMImage::SaveImg(const char* strSavePath, int nCols, int nRows, int nBands,
 		GDALClose(pMemDataSet);
 		return true;
 	}
+}
+
+bool CMImage::SaveImg16(const char* strSavePath, int nCols, int nRows, int nBands, unsigned short *pMem, const char *pszFormat /* = JPEG */)
+{
+	if (strcmp(pszFormat, "GTiff") == 0)
+	{
+		GDALDriver *poDriver = GetGDALDriverManager()->GetDriverByName(pszFormat);
+		if (poDriver == NULL) return false;
+		GDALDataset *WriteDataSet = poDriver->Create(strSavePath, nCols, nRows, nBands, GDT_UInt16, NULL);
+		if (WriteDataSet->RasterIO(GF_Write, 0, 0, nCols, nRows, pMem, nCols, nRows, GDT_UInt16, nBands, NULL, nBands * 2, nCols*nBands * 2, 2) == CE_Failure) return false;
+		//GDALClose(poDriver);
+		GDALClose(WriteDataSet); WriteDataSet = NULL;
+		return true;
+	}
+	else
+		return false;
 }
 
 bool CMImage::SavePointShp(const char* strSavePath, MstuMchModel modelInfo, const char *prj)
@@ -902,6 +917,11 @@ int *CMImage4Check::GetColorMap16To8(bool bFast /* = false */)
 				dMax = max(dMax, pdMax[i]);
 				dMin = min(dMin, pdMin[i]);
 			}
+			delete[] pdMin, pdMax;
+
+			dMin = max(dMin, 1);
+			dMax = min(dMax, 65534);
+
 			int nHist = dMax - dMin + 1;
 			int *pHist = new int[nHist];
 			int nSumAll = 0;
@@ -930,19 +950,23 @@ int *CMImage4Check::GetColorMap16To8(bool bFast /* = false */)
 				nSum += pHist[i];
 				nCutMin = i;
 			}
+			nSum = 0;
 			for (int i = dMax; nSum < nCutNum; i--)
 			{
 				nSum += pHist[i];
 				nCutMax = i;
 			}
+			delete[] pHist;
+
 			/*16转8灰度线性拉伸*/
 			for (int i = 0; i < MAX_SIZE_BUF16; i++)
 			{
-				if (i <= nCutMin) *(m_pColorMap16To8 + i) = 0; else
-					if (i >= nCutMax) *(m_pColorMap16To8 + i) = MAX_SIZE_BUF8 - 1; else
-						*(m_pColorMap16To8 + i) = int(MAX_SIZE_BUF8*(i - nCutMin) / (nCutMax - nCutMin));
-				if (*(m_pColorMap16To8 + i) >= MAX_SIZE_BUF8) *(m_pColorMap16To8 + i) = MAX_SIZE_BUF8 - 1; else
-					if (*(m_pColorMap16To8 + i) < 0) *(m_pColorMap16To8 + i) = 0;
+				if (i <= nCutMin) *(m_pColorMap16To8 + i) = 0;
+				else if (i >= nCutMax) *(m_pColorMap16To8 + i) = MAX_SIZE_BUF8 - 1; 
+				else 
+					*(m_pColorMap16To8 + i) = int(MAX_SIZE_BUF8*(i - nCutMin) / (nCutMax - nCutMin));
+				if (*(m_pColorMap16To8 + i) >= MAX_SIZE_BUF8) *(m_pColorMap16To8 + i) = MAX_SIZE_BUF8 - 1;
+				else if (*(m_pColorMap16To8 + i) < 0) *(m_pColorMap16To8 + i) = 0;
 			}
 		}
 		else

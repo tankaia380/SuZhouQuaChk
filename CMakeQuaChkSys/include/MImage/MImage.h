@@ -19,7 +19,8 @@ public:
 	~CMImage();
 	bool		OpenImg(const char* strImgPath, bool bReadOnly = true);
 	void		CloseImg();
-	bool        SaveImg(const char* strSavePath, int nCols, int nRows, int nBands, BYTE*pMem, const char *pszFormat  = "JPEG");
+	bool        SaveImg(const char* strSavePath, int nCols, int nRows, int nBands, BYTE*pMem, const char *pszFormat  = "GTiff");
+	bool        SaveImg16(const char* strSavePath, int nCols, int nRows, int nBands, unsigned short *pMem, const char *pszFormat = "GTiff");
 	bool        SavePointShp(const char* strSavePath, MstuMchModel moeldInfo, const char *prj);
 	bool        IsOpen();
 	int			GetBands();

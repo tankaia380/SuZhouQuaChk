@@ -9,7 +9,7 @@ using namespace std;
 #define MAX_SIZE_FILE_LINE     1024
 #define MAX_SIZE_BUF8          256
 #define MAX_SIZE_BUF16         65536
-#define CUT_PERCENT_16To8      0.02
+#define CUT_PERCENT_16To8      0.003
 
 template <class DataType>
 class Point2_
